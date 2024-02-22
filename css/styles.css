@@ -12,16 +12,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-img{
-    width: 100%;
+html{
+    font-size: clamp(1rem, 1vw, 1.2rem);
 }
-
+img{
+    max-width: 100%;
+}
+button, input{
+    font-family: inherit;
+    cursor: pointer;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--BGCOLOR);
     min-height: 100vh;
-    
 }
 
 
@@ -51,13 +56,14 @@ nav{
 /*Boostrap styling*/
 .navbar-brand img {
     max-height: 40px; /* Adjust the height of your logo */
+    border-radius: 50%;
 }
 
 
 .nav-link{
     color:black;
     font-weight: 500;
-    font-size: 1rem;;
+    font-size: .8rem;
 }
 
 
@@ -78,6 +84,14 @@ nav{
     transform: scale(0.98);
 }
 
+.img-me{
+    border-radius: 50%;
+    height: 409px;
+    max-width: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
 
 
 /*Custom styling*/
@@ -104,11 +118,22 @@ nav{
     
 }
 
+
 /*Media queries*/	
 
 @media (max-width: 768px) {
     .img-me{
-        width: 400px;
+        height: 300px;
+        width: 100%;
+        max-width: 300px;
+        margin-top: 50px;
+
+    }
+    .contact-text{
+        font-size: 2rem;
+    }
+    .maxw{
+        max-width: 500px;
     }
 }
 
