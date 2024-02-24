@@ -162,7 +162,7 @@ sr.reveal(".about-intro", {
   origin: "left",
 });
 sr.reveal(
-  ".resume-heading,.resume-text,.service-row,.portfolio-wrapper,.contact-general,#contact-form",
+  ".resume-heading,.resume-text,.service-row,.portfolio-wrapper,.contact-general,#contact-form, h2",
   {
     origin: "bottom",
   }
