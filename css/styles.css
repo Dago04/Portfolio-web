@@ -252,20 +252,6 @@ h2 strong {
   cursor: pointer;
 }
 
-.about-image::before {
-  position: relative;
-  content: "";
-  background-image: linear-gradient(11deg, #6ec1e4 0%, #54595f 100%);
-  z-index: -1;
-  transition: all 0.5s ease-in-out;
-  border-radius: 100% 73% 100% 72% / 99% 86% 75% 63%;
-  box-shadow: 2px 10px 0px 0px rgba(216, 19, 19, 0.16);
-}
-
-.about-image:hover {
-  transform: translateY(-10.5px);
-}
-
 .about-image img {
   border-radius: 100% 73% 100% 72% / 99% 86% 75% 63%;
 }
