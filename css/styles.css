@@ -483,6 +483,11 @@ article img {
   padding: 24px;
 }
 
+.article-body h3 {
+  font-size: 1.6rem;
+  color: var(--color2);
+}
+
 article a {
   display: inline-flex;
   align-items: center;
